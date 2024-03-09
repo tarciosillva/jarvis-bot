@@ -1,0 +1,16 @@
+{
+  "Inicio": {
+    "botMessage": "Bem-vindo ao zapp drive, qual o seu nome?",
+    "nextNode": "identifyUser",
+    "variableResponse": {
+      "1": "passengerName"
+    }
+  },
+  "identifyUser": {
+    "botMessage": "Olá, {passengerName}! Para onde você gostaria de ir?",
+    "nextNode": "finish"
+  },
+  "finish": {
+    "botMessage": "Tchau e obrigado meu chapa!"
+  }
+}
